@@ -19,8 +19,10 @@ a {
 }
 
 .header,
-.footer {
-    background-color: slategrey;
+.footer,
+.box-one,
+a  {
+    background-color: #1F2937;
     color: #F9FAF8;
 }
 
