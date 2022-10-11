@@ -14,6 +14,11 @@ ul {
     align-items: flex-start;
 }
 
+li {
+    padding: 3px;
+    margin-right: 10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -21,7 +26,7 @@ a {
 .header,
 .footer,
 .box-one,
-a  {
+ a  {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -34,7 +39,8 @@ a  {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-left: 10px;
 }
 
 .links {
@@ -44,16 +50,53 @@ a  {
 .box-one {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* ovo je novo */
+    padding-left: 10px;
+    padding-bottom: 100px;
 }
+
 
 .one-one {
     display: flex;
     flex-direction: column;
-   
+    padding-bottom: 46px;
+    
 }
+  
 
 .footer {
     display: flex;
     justify-content: center;
     margin-top:auto;  /* OVO ne radi, skontaj kako da gurnes na dno strane */
+}
+
+.op {
+    
+    width: auto;
+    height: 164px;
+    padding: 10px;
+}
+
+.header-two {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.context {
+    color: #F9FAF8;
+    font-size: 18px;
+    word-wrap: normal;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: start;
 }
