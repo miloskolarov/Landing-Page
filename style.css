@@ -1,12 +1,3 @@
-/*
-
-body {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-}
-*/
 
 ul {
     list-style: none;
@@ -132,6 +123,11 @@ a {
     flex: 0 1 200px;
     align-items: center;
     text-align: center;
+ 
+}
+
+.subtext {
+ width: 105.99px;
 }
 
 /* THIRD BOX */
@@ -154,4 +150,53 @@ a {
 
 .citation {
     margin-top: 100.5px;
+}
+
+/*box four */
+
+.box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882f6;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+
+
+.sign-up-two {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid #F9FAF8 3px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.left {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.cta {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ 
+
+.dsc {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
