@@ -52,7 +52,7 @@ a {
     justify-content: space-between;
     align-items: center; /* ovo je novo */
     padding-left: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 44px;
 }
 
 
@@ -108,17 +108,22 @@ a {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    margin-top: 20px;
 }
 
 .two-two {
     display:flex;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 66px;
+    
 }
 
 .si {
     height: 100px;
     width: auto;
-    border: solid 3px blue; /* NE RADI, SKONTATI */
+    border: solid 3px rgb(0, 119, 255); 
+    border-radius: 10px;
 }
 
 .img-one {
