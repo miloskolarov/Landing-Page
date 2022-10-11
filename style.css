@@ -109,3 +109,22 @@ a {
     color: #1F2937;
     text-align: center;
 }
+
+.two-two {
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    border: 1px blue; /* NE RADI, SKONTATI */
+}
+
+.img-one {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+    align-items: center;
+    text-align: center;
+}
