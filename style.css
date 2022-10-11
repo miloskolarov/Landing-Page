@@ -1,7 +1,7 @@
 
 ul {
     list-style: none;
-    display: flex;      /* novo */
+    display: flex;      
     align-items: flex-start;
 }
 
@@ -58,7 +58,7 @@ a {
 .footer {
     display: flex;
     justify-content: center;
-    margin-top:auto;  /* OVO ne radi, skontaj kako da gurnes na dno strane */
+   
 }
 
 .op {
