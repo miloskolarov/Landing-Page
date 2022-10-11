@@ -115,10 +115,10 @@ a {
     justify-content: center;
 }
 
-img {
+.si {
     height: 100px;
     width: auto;
-    border: 1px blue; /* NE RADI, SKONTATI */
+    border: solid 3px blue; /* NE RADI, SKONTATI */
 }
 
 .img-one {
